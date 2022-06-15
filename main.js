@@ -15,8 +15,6 @@ equal.addEventListener("click", () => {
 });
 
 
-
-
 const decimal = document.querySelector(".decimal");
 decimal.addEventListener("click", () => {
   addDecimal();
