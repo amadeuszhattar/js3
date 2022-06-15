@@ -7,9 +7,11 @@ const calcBodyClass =
 const calcBody = document.querySelector(".calcBody");
 calcBodyClass.split(" ").forEach((cls) => calcBody.classList.add(cls));
 
+
 const outputClass =
   "flex flex-col w-3/4 h-12 justify-center items-end m-1 bg-gray-300 text-gray-900 font-semibold px-2 border border-black hover:border-gray-500 rounded";
 const output = document.querySelector(".output");
+
 outputClass.split(" ").forEach((cls) => output.classList.add(cls));
 
 const previousNumberClass =
