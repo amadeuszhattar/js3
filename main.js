@@ -87,6 +87,7 @@ function compute() {
     if (currentNum <= 0) {
       previousNum = "Error";
       displayResults();
+      clearCalculator();
       return;
     }
     previousNum /= currentNum;
