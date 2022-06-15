@@ -85,7 +85,7 @@ function compute() {
     previousNum *= currentNum;
   } else if (operator === "/") {
     if (currentNum <= 0) {
-      previousNum = "Error";
+      previousNum = "Pain";
       displayResults();
       return;
     }
