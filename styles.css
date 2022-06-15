@@ -1,7 +1,7 @@
 body {
   width: 100vw;
+   display: flex;
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
